@@ -1,0 +1,503 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-11T05:55:22.928Z",
+  "title": "Design System: Bookopedia",
+  "extensions": {
+    "colorMeta": {
+      "banner-red": {
+        "role": "primary",
+        "displayName": "Banner Red",
+        "canonical": "oklch(55.1% 0.187 28)",
+        "tonalRamp": [
+          "#2A0000",
+          "#550000",
+          "#840809",
+          "#B62923",
+          "#DD574B",
+          "#FD8779",
+          "#FFB1A3",
+          "#FFD4C7"
+        ]
+      },
+      "banner-red-deep": {
+        "role": "primary",
+        "displayName": "Banner Red Deep",
+        "canonical": "oklch(48.1% 0.167 28)",
+        "tonalRamp": [
+          "#2A0000",
+          "#550000",
+          "#830D0B",
+          "#B0342B",
+          "#D06457",
+          "#EF9083",
+          "#FFB9AD",
+          "#FFDBD0"
+        ]
+      },
+      "marigold": {
+        "role": "secondary",
+        "displayName": "Marigold",
+        "canonical": "oklch(80.3% 0.152 79)",
+        "tonalRamp": [
+          "#140800",
+          "#362200",
+          "#5C3F00",
+          "#855E08",
+          "#B07F1A",
+          "#DDA22B",
+          "#FFC658",
+          "#FFE587"
+        ]
+      },
+      "canopy-green": {
+        "role": "tertiary",
+        "displayName": "Canopy Green",
+        "canonical": "oklch(42.0% 0.082 156)",
+        "tonalRamp": [
+          "#001102",
+          "#003018",
+          "#185133",
+          "#407354",
+          "#6A957A",
+          "#94B8A1",
+          "#BCDAC6",
+          "#DDF6E5"
+        ]
+      },
+      "canopy-green-deep": {
+        "role": "tertiary",
+        "displayName": "Canopy Green Deep",
+        "canonical": "oklch(35.5% 0.064 159)",
+        "tonalRamp": [
+          "#001105",
+          "#032F1C",
+          "#234F39",
+          "#4B705C",
+          "#729280",
+          "#9BB5A6",
+          "#C2D7CB",
+          "#E3F3E9"
+        ]
+      },
+      "indigo-cloth": {
+        "role": "tertiary",
+        "displayName": "Indigo Cloth",
+        "canonical": "oklch(39.6% 0.131 269)",
+        "tonalRamp": [
+          "#030132",
+          "#131D5C",
+          "#2B3C8A",
+          "#4C61A8",
+          "#7286C5",
+          "#9AACE2",
+          "#C0D0FC",
+          "#E1EEFF"
+        ]
+      },
+      "turquoise-cloth": {
+        "role": "tertiary",
+        "displayName": "Turquoise Cloth",
+        "canonical": "oklch(52.1% 0.084 204)",
+        "tonalRamp": [
+          "#001015",
+          "#002E34",
+          "#005057",
+          "#12737C",
+          "#4D969E",
+          "#7EBAC1",
+          "#A9DCE1",
+          "#CDF8FD"
+        ]
+      },
+      "jute-cloth": {
+        "role": "tertiary",
+        "displayName": "Jute Cloth",
+        "canonical": "oklch(45.7% 0.085 57)",
+        "tonalRamp": [
+          "#1B0400",
+          "#3E1C00",
+          "#643914",
+          "#885A35",
+          "#A97F5F",
+          "#CAA68A",
+          "#EACAB3",
+          "#FFE9D6"
+        ]
+      },
+      "rani-pink-cloth": {
+        "role": "tertiary",
+        "displayName": "Rani Pink Cloth",
+        "canonical": "oklch(55.2% 0.187 0)",
+        "tonalRamp": [
+          "#270009",
+          "#520023",
+          "#800640",
+          "#B02660",
+          "#D85483",
+          "#F883A9",
+          "#FFAECC",
+          "#FFD1EA"
+        ]
+      },
+      "enamel-white": {
+        "role": "neutral",
+        "displayName": "Enamel White",
+        "canonical": "oklch(100.0% 0.000 89)",
+        "tonalRamp": [
+          "#0C0B09",
+          "#272624",
+          "#464542",
+          "#676663",
+          "#8A8986",
+          "#AFAEAA",
+          "#D2D1CD",
+          "#F0EEEB"
+        ]
+      },
+      "daylight-ground": {
+        "role": "neutral",
+        "displayName": "Daylight Ground",
+        "canonical": "oklch(97.3% 0.004 91)",
+        "tonalRamp": [
+          "#0C0B09",
+          "#272624",
+          "#464542",
+          "#676663",
+          "#8A8986",
+          "#AFAEAA",
+          "#D2D1CD",
+          "#F0EEEB"
+        ]
+      },
+      "signboard-ink": {
+        "role": "neutral",
+        "displayName": "Signboard Ink",
+        "canonical": "oklch(19.8% 0.011 39)",
+        "tonalRamp": [
+          "#0F0A08",
+          "#2B2523",
+          "#494442",
+          "#6A6563",
+          "#8C8887",
+          "#B1ADAB",
+          "#D4D0CE",
+          "#F2EDEC"
+        ]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Ink Muted",
+        "canonical": "oklch(43.4% 0.020 52)",
+        "tonalRamp": [
+          "#100A06",
+          "#2D241F",
+          "#4E423C",
+          "#6F635D",
+          "#918781",
+          "#B5ACA7",
+          "#D7CFCB",
+          "#F3EDE9"
+        ]
+      },
+      "bamboo": {
+        "role": "neutral",
+        "displayName": "Bamboo",
+        "canonical": "oklch(73.5% 0.102 82)",
+        "tonalRamp": [
+          "#130900",
+          "#322405",
+          "#564119",
+          "#7C622E",
+          "#A48445",
+          "#CDA860",
+          "#EECC8E",
+          "#FFEAB3"
+        ]
+      },
+      "bamboo-node": {
+        "role": "neutral",
+        "displayName": "Bamboo Node",
+        "canonical": "oklch(55.1% 0.090 78)",
+        "tonalRamp": [
+          "#160700",
+          "#362200",
+          "#5A400C",
+          "#806026",
+          "#A4834E",
+          "#C6A97B",
+          "#E6CDA6",
+          "#FFEBC9"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only, white on banner red."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section, notice and CTA titles."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Counter title."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Book titles and notice rule titles."
+      },
+      "signboard": {
+        "displayName": "Signboard",
+        "purpose": "Equal-weight Bangla and English stall names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading text, 46-60ch."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Hero lede, 52ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase fact names in the book label grid only."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Buttons and skip link."
+      }
+    },
+    "shadows": [
+      {
+        "name": "lift",
+        "value": "0 3px 10px rgba(26, 20, 18, .22)",
+        "purpose": "Buttons, header signboard, stall boards, poles."
+      },
+      {
+        "name": "lift-hover",
+        "value": "0 6px 16px rgba(26, 20, 18, .28)",
+        "purpose": "Button hover, with a 2px rise."
+      },
+      {
+        "name": "lift-active",
+        "value": "0 1px 4px rgba(26, 20, 18, .3)",
+        "purpose": "Button press."
+      },
+      {
+        "name": "hung-board",
+        "value": "0 10px 28px rgba(26, 20, 18, .32)",
+        "purpose": "Information desk on poles."
+      },
+      {
+        "name": "counter",
+        "value": "0 12px 30px rgba(10, 30, 20, .35)",
+        "purpose": "Stall counter, tinted toward canopy green."
+      },
+      {
+        "name": "notice",
+        "value": "0 14px 34px rgba(90, 55, 0, .3)",
+        "purpose": "Notice board, tinted toward marigold."
+      },
+      {
+        "name": "book-cover",
+        "value": "2px 4px 10px rgba(26, 20, 18, .3)",
+        "purpose": "Mock covers on the counter."
+      },
+      {
+        "name": "flag",
+        "value": "drop-shadow(0 4px 6px rgba(26, 20, 18, .25))",
+        "purpose": "Clipped route flags (filter)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "All state and lay-down motion; Motion library uses [0.16, 1, 0.3, 1]."
+      },
+      {
+        "name": "button-state",
+        "value": ".18s",
+        "purpose": "Button colour, lift and shadow (CSS)."
+      },
+      {
+        "name": "banner-drop",
+        "value": "clipPath .5s ease-out (roll up .3s, hover peek .2s), then skewX [0,3,-1.5,0] .6s delay .2s",
+        "purpose": "Stall banner unrolls and swings on its pole (motion/react)."
+      },
+      {
+        "name": "lay-down",
+        "value": "exit .15s fade; enter spring 260/24, 80ms stagger, delay .22s, from y -18px rotate -1.5deg",
+        "purpose": "Books laid onto the counter (motion/react AnimatePresence)."
+      },
+      {
+        "name": "bunting-hang",
+        "value": "scaleY spring 320/14, 18ms per flag, capped .65s",
+        "purpose": "Bunting strung up on load."
+      },
+      {
+        "name": "sway",
+        "value": "4.2s ease-in-out infinite alternate, rotate ±5deg",
+        "purpose": "Bunting flags; paused off-screen and under reduced motion."
+      },
+      {
+        "name": "flag-hang",
+        "value": "in view once (25%), spring 210/13, .22s stagger, from y -28px rotate -8deg",
+        "purpose": "Order-route flags hang in sequence."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "480px"
+      },
+      {
+        "name": "tablet",
+        "value": "760px"
+      },
+      {
+        "name": "hero-stack",
+        "value": "900px"
+      },
+      {
+        "name": "stalls-3up",
+        "value": "1080px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-red",
+      "description": "Banner-red painted button for the main account action.",
+      "html": "<button class=\"ds-btn ds-btn--red\">Create account</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;font-family:\"Anek Bangla\",\"Hind Siliguri\",system-ui,sans-serif;font-weight:700;font-size:1.05rem;letter-spacing:.01em;padding:.7rem 1.4rem;border-radius:3px;border:2px solid #1A1412;text-decoration:none;cursor:pointer;white-space:nowrap;box-shadow:0 3px 10px rgba(26,20,18,.22);transition:background-color .18s,color .18s,transform .18s cubic-bezier(.16,1,.3,1),box-shadow .18s;} .ds-btn:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(26,20,18,.28);} .ds-btn:active{transform:translateY(0);box-shadow:0 1px 4px rgba(26,20,18,.3);} .ds-btn:focus-visible{outline:3px solid #F2B233;outline-offset:3px;} .ds-btn--red{background:#C8332B;color:#FFFFFF;} .ds-btn--red:hover{background:#A8261F;}"
+    },
+    {
+      "name": "Marigold Button",
+      "kind": "button",
+      "refersTo": "button-marigold",
+      "description": "Marigold button with ink text: Search, and account actions on red cloth.",
+      "html": "<button class=\"ds-btn ds-btn--marigold\">Search</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;font-family:\"Anek Bangla\",\"Hind Siliguri\",system-ui,sans-serif;font-weight:700;font-size:1.05rem;letter-spacing:.01em;padding:.7rem 1.4rem;border-radius:3px;border:2px solid #1A1412;text-decoration:none;cursor:pointer;white-space:nowrap;box-shadow:0 3px 10px rgba(26,20,18,.22);transition:background-color .18s,color .18s,transform .18s cubic-bezier(.16,1,.3,1),box-shadow .18s;} .ds-btn:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(26,20,18,.28);} .ds-btn:active{transform:translateY(0);box-shadow:0 1px 4px rgba(26,20,18,.3);} .ds-btn:focus-visible{outline:3px solid #F2B233;outline-offset:3px;} .ds-btn--marigold{background:#F2B233;color:#1A1412;} .ds-btn--marigold:hover{background:#F7C356;} .ds-btn--marigold:focus-visible{outline-color:#2C3E8C;}"
+    },
+    {
+      "name": "Line Button",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "White outline button, used on banner-red cloth only.",
+      "html": "<div class=\"ds-red\"><a href=\"#\" class=\"ds-btn ds-btn--line\">Browse books</a></div>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;font-family:\"Anek Bangla\",\"Hind Siliguri\",system-ui,sans-serif;font-weight:700;font-size:1.05rem;letter-spacing:.01em;padding:.7rem 1.4rem;border-radius:3px;border:2px solid #1A1412;text-decoration:none;cursor:pointer;white-space:nowrap;box-shadow:0 3px 10px rgba(26,20,18,.22);transition:background-color .18s,color .18s,transform .18s cubic-bezier(.16,1,.3,1),box-shadow .18s;} .ds-btn:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(26,20,18,.28);} .ds-btn:active{transform:translateY(0);box-shadow:0 1px 4px rgba(26,20,18,.3);} .ds-btn:focus-visible{outline:3px solid #F2B233;outline-offset:3px;} .ds-red{background:#C8332B;padding:24px;} .ds-btn--line{background:transparent;color:#FFFFFF;border-color:#FFFFFF;box-shadow:none;} .ds-btn--line:hover{background:#FFFFFF;color:#C8332B;box-shadow:none;}"
+    },
+    {
+      "name": "Search Input",
+      "kind": "input",
+      "refersTo": "search-input",
+      "description": "Information-desk search field on a white board.",
+      "html": "<div class=\"ds-row\"><input class=\"ds-input\" type=\"search\" placeholder=\"e.g. Pather Panchali\" aria-label=\"Search by title, author or ISBN\"></div>",
+      "css": ".ds-row{display:flex;background:#FFFFFF;padding:16px;} .ds-input{flex:1;min-width:0;min-height:48px;padding:.7rem .9rem;font:400 1.0625rem/1.6 \"Hind Siliguri\",\"Anek Bangla\",system-ui,sans-serif;color:#1A1412;background:#FFFFFF;border:2px solid #1A1412;border-radius:3px;} .ds-input::placeholder{color:#6E625A;} .ds-input:focus-visible{outline:3px solid #2C3E8C;outline-offset:1px;}"
+    },
+    {
+      "name": "Signboard Navigation",
+      "kind": "nav",
+      "refersTo": "signboard",
+      "description": "White enamel nav strip hung over the red header field.",
+      "html": "<div class=\"ds-head\"><nav class=\"ds-sign\"><a class=\"ds-word\" href=\"#\">Bookopedia</a><span class=\"ds-links\"><a href=\"#\">Browse books</a><a href=\"#\">Genres</a><a href=\"#\">How ordering works</a></span><a class=\"ds-paint\" href=\"#\">Sign in</a></nav></div>",
+      "css": ".ds-head{background:#C8332B;padding:20px;} .ds-sign{display:flex;align-items:center;gap:2rem;min-height:72px;padding:.5rem 1.5rem;background:#FFFFFF;color:#1A1412;border:2px solid #1A1412;border-radius:3px;outline:1px solid #1A1412;outline-offset:-7px;box-shadow:0 3px 10px rgba(26,20,18,.22);font-family:\"Anek Bangla\",\"Hind Siliguri\",system-ui,sans-serif;} .ds-word{font-weight:800;font-size:1.55rem;font-stretch:88%;text-decoration:none;color:inherit;} .ds-links{display:flex;gap:1.75rem;margin-left:auto;} .ds-links a{font-weight:600;text-decoration:none;color:inherit;padding:.5rem 0;} .ds-links a:hover{text-decoration:underline;text-decoration-thickness:2px;text-decoration-color:#C8332B;} .ds-paint{font-weight:600;color:inherit;text-decoration:underline;text-decoration-thickness:2px;text-decoration-color:#C8332B;text-underline-offset:4px;} .ds-paint:hover{text-decoration-thickness:3px;} .ds-sign a:focus-visible{outline:3px solid #2C3E8C;outline-offset:3px;}"
+    },
+    {
+      "name": "Stall",
+      "kind": "custom",
+      "refersTo": "stall-board",
+      "description": "Genre stall: bilingual signboard on bamboo rods over a cloth banner that unrolls when selected.",
+      "html": "<div class=\"ds-lane\"><button class=\"ds-stall\" aria-selected=\"false\" style=\"--cloth:#2C3E8C;--cloth-ink:#FFFFFF\"><span class=\"ds-board\"><span class=\"ds-bn\" lang=\"bn\">বিজ্ঞান কল্পকাহিনি</span><span class=\"ds-en\">Science Fiction</span></span><span class=\"ds-banner\"><span class=\"ds-blurb\">Futures and far worlds</span><span class=\"ds-count\">3 titles</span></span></button><button class=\"ds-stall\" aria-selected=\"true\" style=\"--cloth:#7A4A22;--cloth-ink:#FFFFFF\"><span class=\"ds-board\"><span class=\"ds-bn\" lang=\"bn\">একাডেমিক</span><span class=\"ds-en\">Academic</span></span><span class=\"ds-banner\"><span class=\"ds-blurb\">Textbooks and reference for students</span><span class=\"ds-count\">2 titles</span></span></button></div>",
+      "css": ".ds-lane{display:grid;grid-template-columns:repeat(2,180px);gap:1rem;background:#1F5A3A;padding:28px 20px;} .ds-stall{position:relative;display:flex;flex-direction:column;padding:0 8px;border:0;background:none;color:#FFFFFF;font:400 1rem/1.6 \"Hind Siliguri\",\"Anek Bangla\",system-ui,sans-serif;text-align:left;cursor:pointer;border-radius:4px;} .ds-stall::before,.ds-stall::after{content:\"\";position:absolute;top:-10px;bottom:0;width:7px;border-radius:4px;background:repeating-linear-gradient(180deg,#C9A35A 0 54px,#8E6B2E 54px 57px);} .ds-stall::before{left:0;} .ds-stall::after{right:0;} .ds-board{position:relative;z-index:1;display:flex;flex-direction:column;gap:.15rem;min-height:6.6rem;padding:.7rem .8rem;background:#FFFFFF;color:#1A1412;border:2px solid #1A1412;border-radius:3px;box-shadow:0 3px 10px rgba(26,20,18,.22);transition:transform .3s cubic-bezier(.16,1,.3,1);} .ds-bn,.ds-en{font-family:\"Anek Bangla\",\"Hind Siliguri\",system-ui,sans-serif;font-weight:800;font-size:1.3rem;line-height:1.15;} .ds-en{font-stretch:85%;padding-top:.2rem;border-top:2px solid #C8332B;} .ds-banner{display:flex;flex-direction:column;justify-content:space-between;gap:.75rem;height:9.5rem;margin:0 6px;padding:.9rem .8rem 1.4rem;background-color:var(--cloth);color:var(--cloth-ink);background-image:repeating-linear-gradient(0deg,rgba(0,0,0,.06) 0 1px,transparent 1px 3px);font-size:.95rem;line-height:1.35;clip-path:inset(0 0 calc(100% - 1.75rem) 0);transition:clip-path .55s cubic-bezier(.16,1,.3,1);} .ds-blurb,.ds-count{opacity:0;transition:opacity .25s;} .ds-count{font-family:\"Anek Bangla\",\"Hind Siliguri\",system-ui,sans-serif;font-weight:700;font-size:1.1rem;} .ds-stall:hover .ds-banner{clip-path:inset(0 0 calc(100% - 2.75rem) 0);} .ds-stall:hover .ds-board{transform:translateY(-2px);} .ds-stall[aria-selected=\"true\"] .ds-banner{clip-path:inset(0 0 0 0);} .ds-stall[aria-selected=\"true\"] .ds-blurb,.ds-stall[aria-selected=\"true\"] .ds-count{opacity:1;transition-delay:.15s;} .ds-stall[aria-selected=\"true\"] .ds-board{background:#F2B233;} .ds-stall:focus-visible{outline:3px solid #F2B233;outline-offset:4px;}"
+    },
+    {
+      "name": "Counter Book Label",
+      "kind": "card",
+      "refersTo": "counter",
+      "description": "The counter board with a cloth top edge, holding a mock cover and the fixed label grid.",
+      "html": "<div class=\"ds-counter\" style=\"--cloth:#7A4A22;--cloth-ink:#FFFFFF\"><div class=\"ds-item\"><a class=\"ds-cover\" href=\"#\" tabindex=\"-1\" aria-hidden=\"true\"><span class=\"ds-ct\">Introduction to Algorithms</span><span class=\"ds-ca\">Cormen</span></a><div><h4 class=\"ds-title\"><a href=\"#\">Introduction to Algorithms</a></h4><p class=\"ds-author\">Thomas H. Cormen</p><dl class=\"ds-facts\"><div><dt>ISBN</dt><dd>978-0-26204-630-5</dd></div><div><dt>Published</dt><dd>2022</dd></div><div><dt>Price</dt><dd class=\"ds-price\">৳2,950</dd></div><div><dt>Availability</dt><dd class=\"ds-stock\">7 in stock</dd></div></dl></div></div></div>",
+      "css": ".ds-counter{background:#FFFFFF;color:#1A1412;border:2px solid #1A1412;border-top:12px solid var(--cloth);padding:clamp(1.25rem,3vw,2rem);box-shadow:0 12px 30px rgba(10,30,20,.35);font:400 1.0625rem/1.6 \"Hind Siliguri\",\"Anek Bangla\",system-ui,sans-serif;} .ds-item{display:grid;grid-template-columns:92px 1fr;gap:1.1rem;align-items:start;padding-top:1.5rem;border-top:2px solid #1A1412;} .ds-cover{display:flex;flex-direction:column;justify-content:space-between;aspect-ratio:2/3;padding:.55rem .5rem;background-color:var(--cloth);color:var(--cloth-ink);text-decoration:none;background-image:linear-gradient(90deg,rgba(0,0,0,.22) 0 5px,rgba(255,255,255,.12) 5px 7px,transparent 7px);border-radius:1px 3px 3px 1px;box-shadow:2px 4px 10px rgba(26,20,18,.3);overflow:hidden;} .ds-ct{font-family:\"Anek Bangla\",\"Hind Siliguri\",system-ui,sans-serif;font-weight:800;font-stretch:80%;font-size:.9rem;line-height:1.05;padding-left:6px;} .ds-ca{font-family:\"Anek Bangla\",\"Hind Siliguri\",system-ui,sans-serif;font-weight:600;font-size:.68rem;font-stretch:75%;text-transform:uppercase;letter-spacing:.02em;padding-left:6px;} .ds-title{margin:0;font-family:\"Anek Bangla\",\"Hind Siliguri\",system-ui,sans-serif;font-size:1.35rem;font-weight:800;font-stretch:88%;line-height:1.02;} .ds-title a{color:inherit;text-decoration:none;} .ds-title a:hover{text-decoration:underline;text-decoration-thickness:2px;text-decoration-color:#C8332B;} .ds-title a:focus-visible{outline:3px solid #2C3E8C;outline-offset:3px;} .ds-author{margin:.15rem 0 0;color:#5A4E47;} .ds-facts{display:grid;grid-template-columns:repeat(4,auto);justify-content:start;gap:.25rem 1.4rem;margin:.9rem 0 0;} .ds-facts dt{font-family:\"Anek Bangla\",\"Hind Siliguri\",system-ui,sans-serif;font-weight:600;font-size:.78rem;text-transform:uppercase;letter-spacing:.07em;color:#5A4E47;} .ds-facts dd{margin:0;font-weight:600;white-space:nowrap;font-variant-numeric:tabular-nums lining-nums;} .ds-price{color:#A8261F;} .ds-stock{color:#1F5A3A;}"
+    },
+    {
+      "name": "Notice Board",
+      "kind": "card",
+      "refersTo": "notice-board",
+      "description": "Riveted enamel notice board on the marigold field.",
+      "html": "<div class=\"ds-field\"><div class=\"ds-notice\"><span class=\"ds-rivet\" style=\"top:18px;left:18px\"></span><span class=\"ds-rivet\" style=\"top:18px;right:18px\"></span><span class=\"ds-rivet\" style=\"bottom:18px;left:18px\"></span><span class=\"ds-rivet\" style=\"bottom:18px;right:18px\"></span><h2 class=\"ds-nt\">Buying books online should feel as safe as buying them at the counter.</h2></div></div>",
+      "css": ".ds-field{background-color:#F2B233;background-image:repeating-linear-gradient(0deg,rgba(0,0,0,.04) 0 1px,transparent 1px 3px);padding:32px;} .ds-notice{position:relative;background:#FFFFFF;color:#1A1412;border:3px solid #1A1412;border-radius:3px;outline:1px solid #1A1412;outline-offset:-10px;padding:clamp(2rem,5vw,3.75rem);box-shadow:0 14px 34px rgba(90,55,0,.3);} .ds-rivet{position:absolute;width:9px;height:9px;border-radius:50%;background:#1A1412;} .ds-nt{margin:0;font-family:\"Anek Bangla\",\"Hind Siliguri\",system-ui,sans-serif;font-size:clamp(2.1rem,4.2vw,3.4rem);font-weight:800;font-stretch:80%;letter-spacing:-.005em;line-height:1.02;max-width:20ch;color:#C8332B;}"
+    },
+    {
+      "name": "Route Flag",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Swallowtail cloth flag on an ink string, one per order stage, bilingual.",
+      "html": "<div class=\"ds-route\"><span class=\"ds-flag\" style=\"--cloth:#2C3E8C;--cloth-ink:#FFFFFF\"><span class=\"ds-fb\" lang=\"bn\">প্রস্তুত হচ্ছে</span><span class=\"ds-fn\">Processing</span></span></div>",
+      "css": ".ds-route{background:#F7F6F3;padding:0 20px 20px;border-top:2px solid #1A1412;} .ds-flag{display:flex;flex-direction:column;gap:.1rem;width:13rem;padding:1rem 1.1rem 2.4rem;background-color:var(--cloth);color:var(--cloth-ink);background-image:repeating-linear-gradient(0deg,rgba(0,0,0,.06) 0 1px,transparent 1px 3px);clip-path:polygon(0 0,100% 0,100% 100%,50% 78%,0 100%);filter:drop-shadow(0 4px 6px rgba(26,20,18,.25));font-family:\"Anek Bangla\",\"Hind Siliguri\",system-ui,sans-serif;font-weight:800;font-size:1.6rem;} .ds-fb{line-height:1.15;} .ds-fn{font-stretch:85%;line-height:1.05;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Boi Mela Stalls",
+    "overview": "The site is a lane at a Bangladeshi book fair. Whole sections are dyed cloth: a banner-red field, a canopy-green stall lane, a marigold notice field, then a final red banner. Against those fields stand white enamel signboards, edged in warm ink and hung on flat painted bamboo poles. Strings of triangular bunting run across the top. The lettering is signwriter's paint: Anek Bangla, heavy and condensed, with the Bangla name painted beside the English at equal weight.\n\nThe colour is loud and arrives in fields, not in accents. Inside each field, the density comes from the signboards: tight, factual, label-like (ISBN, year, price, stock). Depth comes from physical hanging objects (boards, poles, flags, book covers) with soft, warm, downward shadows, never from glass, glow or layered cards. The cloth carries a faint woven texture, a material and not an ornament.\n\nMotion behaves like cloth and paper, and is driven by the Motion library (`motion/react`) with `MotionConfig reducedMotion=\"user\"`. On load the bunting is hung flag by flag, then sways slowly. A stall's banner unrolls when you choose it, then swings on its pole and settles. Its books are laid on the counter one after another, and the old ones leave quickly. The order-route flags hang in sequence, Pending to Delivered, when the section comes into view. Under reduced motion every element appears in its final state, with no movement.",
+    "keyCharacteristics": [
+      "Page-scale cloth fields in red, canopy green and marigold, separated by full-bleed section changes.",
+      "White enamel signboards: 2-3px ink border, an inset ink keyline, 3px corners.",
+      "Bilingual Bangla and English signboard pairs at equal weight.",
+      "Flat painted bamboo poles and triangular bunting as structural props.",
+      "Six genre cloths keyed per stall and passed in as `--cloth` / `--cloth-ink`.",
+      "Heavy, condensed Anek Bangla display; Hind Siliguri for reading text."
+    ],
+    "rules": [
+      {
+        "name": "The Cloth Field Rule",
+        "body": "Colour is applied as whole-section fields or as a whole stall cloth. A section is one cloth; it does not carry a second cloth as a decorative accent strip.",
+        "section": "colors"
+      },
+      {
+        "name": "The Cloth Ink Rule",
+        "body": "Every cloth declares its ink pair. White on red, green, indigo, turquoise, jute and rani pink; signboard ink on marigold. Never white on marigold.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Focus Rings Rule",
+        "body": "The focus ring is a 3px marigold outline on cloth fields and switches to indigo inside white boards (signboard, desk, notice, counter), so it is always visible against what sits behind it.",
+        "section": "colors"
+      },
+      {
+        "name": "The Equal Pair Rule",
+        "body": "Bangla and English names on a signboard or flag are set at the same size and weight, stacked, Bangla first, and parted on stall boards by a 2px banner-red rule. Neither is a caption of the other.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Facts Rule",
+        "body": "ISBNs, years, prices and counts use tabular, lining numerals.",
+        "section": "typography"
+      },
+      {
+        "name": "The Field-Tinted Shadow Rule",
+        "body": "A large board's shadow is tinted toward the cloth it hangs over (green-black on the lane, brown on marigold), never neutral grey.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** set every section as one cloth field (banner red, canopy green, marigold, ink, or daylight ground) and put content on white enamel boards inside it.",
+      "**Do** pair each cloth with its ink: white text on every cloth except marigold, which takes signboard ink.",
+      "**Do** paint Bangla and English names as an equal-weight stack in Anek Bangla 800.",
+      "**Do** keep board edges as a 2px ink border, a 1px inset keyline and 3px corners.",
+      "**Do** tint large board shadows toward the field beneath them.",
+      "**Do** pass genre colour through `--cloth` / `--cloth-ink` rather than new per-genre classes.",
+      "**Do** honour reduced motion: the bunting sway, banner drop and book lay-down all stop."
+    ],
+    "donts": [
+      "**Don't** use smooth colour-to-colour gradients; hard-stop gradients appear only to draw material (cloth weave, bamboo nodes, book spines).",
+      "**Don't** put white text on marigold.",
+      "**Don't** add icon tiles, rounded cards or pill shapes; containers are signboards, counters and cloths.",
+      "**Don't** use hard offset or neutral grey shadows; shadows are soft, downward and warm.",
+      "**Don't** set a Bangla label as a small caption under English."
+    ]
+  }
+}
